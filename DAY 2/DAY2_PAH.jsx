@@ -5,8 +5,8 @@ const Forms=()=>{
     const[message,setMessage]=useState("");
     const handleSubmit =(event) =>{
         event.preventDefault();
-        alert(Name: ${name} \nEmail:${email}
-            \nMessage:${message});
+        alert('Name: ${name} \nEmail:${email}
+            \nMessage:${message}');
     };
     return(
         <div>
