@@ -1,13 +1,14 @@
 function array(){
     let arr1=["North","West","East","South"];
-     alert(arr1);
+     alert("Check the console!!!");
+     console.log(arr1);
 }
 
-function App(){
+function Appnewfile(){
     return(
         <div className="App">
-            <button onClick={array}>array</button> 
+            <button onClick={array}>CY2</button> 
         </div>
     )
 }
-export default App;
+export default Appnewfile;
